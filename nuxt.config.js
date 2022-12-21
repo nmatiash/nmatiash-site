@@ -4,14 +4,24 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'matiash',
+    title: 'Наталья Матяш - сайт писателя',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Официальный сайт писателя Натальи Матяш. Здеесь вы можете прочитать и скачать её книги и рассказы.' },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: "Сайт писателя Натальи Матяш",
+      },
+      {
+          hid: 'og:description',
+          property: 'og:description',
+          content: "Официальный сайт писателя Натальи Матяш. Здеесь вы можете прочитать и скачать её книги и рассказы.",
+      },   
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
